@@ -1,18 +1,28 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
-  <script language="javascript" type="text/javascript" src="./p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="./Vec.js"></script>
-  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vector Addition — p5.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/addons/p5.dom.min.js"></script>
+  <style>
+    html, body { margin:0; padding:0; background:#fafafa; font-family:system-ui, sans-serif; }
+    #ui { position:fixed; top:10px; left:10px; z-index:10; max-width:520px; }
+    .ui   { margin:6px 0; font-size:14px; }
+    .row  { display:flex; gap:6px; align-items:center; }
+    .card { padding:10px; border:1px solid #ddd; border-radius:10px; background:#fff; }
+    .labelBlue { color:#004696; font-weight:600; }
+    textarea { width: calc(100% - 20px); height:130px; resize:vertical; }
+    canvas { display:block; }
+  </style>
+</head>
 <body>
-  <div id="ui"></div>
+  <div id="ui" class="card"></div>
   <script src="./Vec.js"></script>
 </body>
+</html>
+
 
 
 

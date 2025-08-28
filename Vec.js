@@ -13,8 +13,7 @@ let vx = 0, vy = 0;        // Cartesian
 let r  = 0, thetaDeg = 0;  // Polar (degrees)
 
 function setup() {
-  //createCanvas(900, 560);
-  noCanvas();
+  createCanvas(900, 560);
   pixelDensity(1);
 
   // --- UI ---
@@ -229,6 +228,7 @@ function drawDashedLine(x1, y1, x2, y2, dash, gap) {
     pos += step;
   }
 }
+
 
 
 

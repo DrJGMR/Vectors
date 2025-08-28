@@ -140,7 +140,7 @@ function drawUIFrame() {
 
 function drawGraph() {
   push();
-  const left = 20, top = 290, right = width - 20, bottom = height - 20;
+  const left = 20, top = 190, right = width - 20, bottom = height - 20;
   const w = right - left, h = bottom - top;
   const ox = left + w/2;
   const oy = top + h/2;
@@ -229,5 +229,6 @@ function drawDashedLine(x1, y1, x2, y2, dash, gap) {
     pos += step;
   }
 }
+
 
 
